@@ -2,12 +2,17 @@ article {
     padding-top: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
+    vertical-align: center;    
 }
 
 footer {
+    color: aliceblue;
+    background-color: black;
     text-align: left;
+    vertical-align: bottom;
     padding-left: 20px;
+    text-shadow: 2px 2px 4px rgb(255, 80, 80);
 }
 
 .quote {
