@@ -1,3 +1,7 @@
+#index {
+    text-shadow: 2px 2px 5px cyan;
+}
+
 article {
     padding-top: 60px;
     padding-left: 40px;
@@ -6,13 +10,18 @@ article {
     vertical-align: center;    
 }
 
+.personal {
+    border: 5px double black;
+    padding: 5px;
+}
+
 footer {
     color: aliceblue;
     background-color: black;
     text-align: left;
     vertical-align: bottom;
     padding-left: 20px;
-    text-shadow: 2px 2px 4px rgb(255, 80, 80);
+    text-shadow: 2px 4px 5px rgb(255, 80, 80);
 }
 
 .quote {
