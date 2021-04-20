@@ -10,18 +10,26 @@ article {
     vertical-align: center;    
 }
 
+.hark {
+    text-shadow: 2px 2px 5px cyan;
+}
+
+.red {
+    text-shadow: 2px 2px 5px crimson;
+}
+
 .personal {
     border: 5px double black;
     padding: 5px;
 }
 
-footer {
+.connect {
     color: aliceblue;
     background-color: black;
     text-align: left;
     vertical-align: bottom;
     padding-left: 20px;
-    text-shadow: 2px 4px 5px rgb(255, 80, 80);
+    text-shadow: 2px 4px 5px crimson;
 }
 
 .quote {

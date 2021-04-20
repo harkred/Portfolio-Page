@@ -12,7 +12,14 @@ header {
     padding: 20px;
     font-style: oblique;
     vertical-align: top;
-    text-shadow: 2px 4px 10px cyan ;
+}
+
+.fname {
+    text-shadow: 2px 2px 5px cyan;
+}
+
+.lname {
+    text-shadow: 2px 2px 5px crimson;
 }
 
 .heading {
@@ -30,6 +37,7 @@ ul {
 }
 
 a:link {
+    color: black;
     text-decoration: underline;
 }
 
@@ -38,6 +46,19 @@ a:visited {
 }
 
 a:hover {
-    text-shadow: 2px 1px 5px lightcoral;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 1px 5px crimson;
     font-weight: bolder;
+}
+
+.copyright {
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    vertical-align: bottom;
+    text-shadow: 2px 2px 5px crimson;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black; 
 }
