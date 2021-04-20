@@ -18,6 +18,47 @@ article {
     text-shadow: 2px 2px 5px crimson;
 }
 
+.since {
+    color: magenta;
+}
+
+.python {
+    color: yellow;
+    text-shadow: 2px 2px 16px blue;
+}
+
+.basic {
+    color: lightgreen;
+    background-color: mintcream;
+}
+
+.oop {
+    color: limegreen;
+}
+
+.tkinter {
+    color: red;
+}
+
+.much {
+    color: yellowgreen;
+}
+
+.w {
+    color: teal;
+}
+
+.love {
+    color: hotpink;
+    background-color: papayawhip;
+    text-shadow: 2px 2px 5px palevioletred;
+}
+
+.ambition {
+    color: goldenrod;
+    background-color:rebeccapurple;
+}
+
 .personal {
     border: 5px double black;
     padding: 5px;
