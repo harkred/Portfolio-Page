@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name='author' content='HarkRed'>
-        <meta name='description' content='Resume website displaying about me, my skills, achievement and much more. Hope to update it as often as I can.'>
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <title>My Blog</title>
-        <link rel='stylesheet' href='style.css'>
-        <link rel='stylesheet' href='index.css'>
-    </head>
-    
-    <body>
-        <!--Header/Navbar-->
-        <header>
-            <h2 class='heading'><span class='fname'>Harkeerat</span><span class='lname'> Singh</span></h2>
-        </header>
-        
-        <nav>
-            <ul>
-                <li id='index'><a href='index.html'>About Me</a></li>
-                <li><a href='skills.html'>Skills</a></li>
-                <li><a href='certificates.html'>Certificates</a></li>
-            </ul>
-        </nav>
-        
-        <!--Personal-->
-        <article>
-            <br/>
-            <main>
-                <p class='personal'>Hello there! My name's <b>Harkeerat Singh</b> (aka <span class='hark'>Hark</span><span class='red'>Red</span>) and I'm a <b>Programmer</b> which I have been doing since <span class='since'>2019</span>. My first programming language that I learnt was <span class='python'>Python</span> which took me an approximate two years to master starting from <span class='basic'>basic syntax</span> to <span class='oop'>object-oriented programming</span>, <span class='tkinter'>tkinter guis</span> and <span class='much'>much more</span>. Programming has not only given me <i class='w'>analytical skills</i> to prepare me for <i class='w'>work environment</i> but has also taught me the <i class='w'>key-concepts of networking</i> and how it can be exploited for <i class='w'>productive work</i>. It has also given me a voice to express myself, about what I feel like, what I really want to be and also the <i class='w'>art of decision making</i>. I <span class='love'>love</span> meeting new people who too have similar interests in programming and would like to work with them on <span class='ambition'>ambitious projects</span> or maybe just <i>befriend them. :)</i>
-                </p>
-            </main>
-            <br/>
-        </article>
-        
-        <!--Contact-->
-        <footer>
-            <div class='connect'>
-                <p>
-                <br/>
-                <hr/>
-                <i>Connect with me through:</i>
-                <ul>
-                    <li>Email: harkeerat2003@gmail.com</li>
-                    <li>Discord: HarkRed#0891</li>
-                    <li>Github: <a href='https://github.com/harkred' target='_blank'><span style='color: aliceblue'>harkred</span></a></li>
-                </ul>
-                <hr/>
-                </p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>HarkRed's Personal Page</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                <p class='quote'>"Declare <s>war</s> variable"</p>
+<body>
+
+    <header>
+        <h1>Harkeerat<br>Singh</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="about">About</li>
+            <li class="skills">Skills</li>
+            <li class="certificates">Certificates</li>
+            <li class="contacts">Contacts</li>
+        </ul>
+    </nav>
+    
+    <article>
+
+        <section class="about-page">
+            Hello there! My name's Harkeerat Singh(aka HarkRed) and I'm a Programmer which I have been doing since 2019. My first programming language that I learnt was which took me an approximate two years to master starting from basic syntax to object-oriented programming, tkinter guis and much more. I love learning new skills, video-gaming and most importantly, cheese-burgers.
+        </section>
+
+        <section class="skills-page">
+            <ol>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>tkinter</li>
+                <li>SQlite3</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ol>
+        </section>
+
+        <section class="certificates-page">
+            <div>
+                <img src='https://www.sololearn.com/certificates/course/en/11762407/1073/landscape/png' alt='Python Core'>
+                <img src='https://www.sololearn.com/certificates/course/en/11762407/1157/landscape/png' alt='Python Beginner'>            
+                <img src='https://www.sololearn.com/certificates/course/en/11762407/1158/landscape/png' alt='Python Intermediate'>
             </div>
-            <p class='copyright'>&copy; 2021 harkred</p>
-        </footer>
-    </body>
+            <br>
+            <div>                
+                <img src='https://www.sololearn.com/certificates/course/en/11762407/1060/landscape/png' alt='SQL'>
+                <img src='https://www.sololearn.com/Certificate/1014-11762407/jpg/' alt='html'>
+                <img src='https://www.sololearn.com/certificates/course/en/11762407/1024/landscape/png' alt='JavaScript'>
+            </div>
+        </section>
+
+        <section class="contacts-page">
+            <div>
+            Discord: HarkRed#0069<br>
+            Steam: PlayHarkRed<br>
+            Github: <a href='https://github.com/harkred' target='_blank' class='gitlink'>harkred</a><br>
+            </div>
+        </section>
+
+    </article>
+
+    <footer>&copy; 2021 harkred</footer>
+    
+    <!-- Project -->
+    <script src="main.js"></script>
+
+</body>
 </html>
