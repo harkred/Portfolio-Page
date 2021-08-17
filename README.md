@@ -3,4 +3,4 @@ Personal website displaying about me, my skills, achievement and much more.  Hop
 
 If any suggestions, feel free to make commits to the websties. I'll make sure to check 'em out. :)
 
-https://harkred.github.io/personal-page/
+Link to my website:https://harkred.github.io/Personal-Page/
