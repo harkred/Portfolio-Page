@@ -39,7 +39,7 @@ nav ul li {
 }
 
 article {
-    background-color: yellow;
+    background-color: gold;
     height: 100%;
     margin: 40px;
     box-shadow: 2px 2px 2px 2px black, -2px -2px 2px 2px black;
@@ -48,7 +48,7 @@ article {
 article section {
     display: flex;
     font-size: 30px;
-    background-color: yellow;
+    background-color: gold;
     color: purple;
     padding: 20px;
     text-shadow: 1px 1px 1px black;    
