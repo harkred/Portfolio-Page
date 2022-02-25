@@ -1,69 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
-    font-family: 'Fira Sans', sans-serif;
-    background-color: gold;
-    background-image: url("back.png");
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header {
-    background-color: purple;
-    background-image: url("header.png");
-    padding: 30px;
-    box-shadow: 2px 2px 2px 2px black, -2px -2px 2px 2px black;
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 1.5em;
 }
 
-header h1{
-    font-weight: lighter;
-    font-size: 80px;
-    color: yellow;
-    text-shadow: 2px 0px 0px black;
+#navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 0.5em;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    flex-wrap: wrap;
+.nav-link {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
 }
 
-nav ul li {
-    cursor: pointer;
-    color: purple;
-    background-color: yellow;
-    font-weight: lighter;
-    font-size: 30px;
-    padding: 15px;
-    border-radius: 30px 30px 30px 30px;
-    box-shadow: inset 2px 2px 2px 2px black, inset -2px -2px 2px 2px black;
-    text-shadow: 1px 1px 1px black;
+#welcome-section {
+  background-color: #FFAEBC;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-article {
-    background-color: gold;
-    height: 100%;
-    margin: 40px;
-    box-shadow: 2px 2px 2px 2px black, -2px -2px 2px 2px black;
+#welcome-section p {
+  font-size: 1.3em;
 }
 
-article section {
-    display: flex;
-    font-size: 30px;
-    background-color: gold;
-    color: purple;
-    padding: 20px;
-    text-shadow: 1px 1px 1px black;    
+#skills {
+  background-color: #A0E7E5;
+  width: 100vw;
+  height: 100vh;
 }
 
-.certificates-page img {
-    width: 70%;
-    border: black 2px solid;
+#skill-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.contacts-page ul {
-    list-style-type: none;
+#skill-set li {
+  margin-right: 0.5em;
 }
 
-.gitlink {
-    text-decoration: none;
-    color: crimson;
+.skill-img {
+  height: 5em;
+  width: auto;
+}
+
+#projects {
+  background-color: #B4F8C8;
+  width: 100vw;
+  height: 100vh;
+}
+
+#work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 1.5em;
+}
+
+#see-all {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 1em 1.5em 1em 1.5em;
+  margin-left: 47.5vw;
+}
+
+#see-all:hover {
+  background-color: white;
+  color: black;
+}
+
+#contacts {
+  background-color: #FBE7C6;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contacts h2 {
+  text-align: center;
+  padding-top: 3em;
+  font-size: 1.5em;
+}
+
+#contacts p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 7.5em;
+}
+
+#profile li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media(max-width: 940px) {
+  #p3 {
+    display: none;
+  }
+  @media(max-width: 640px) {
+    #p2 {
+      display: none;
+    }
+    #profile {
+      flex-direction: column;
+    }
+  }
 }
