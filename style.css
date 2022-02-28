@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #FBE7C6;
 }
 
 #navbar {
@@ -79,13 +80,17 @@ body {
   margin-bottom: 1.5em;
 }
 
+#see-all-container {
+  display: flex;
+  justify-content: center;
+}
+
 #see-all {
   text-decoration: none;
   text-align: center;
   color: white;
   background-color: black;
   padding: 1em 1.5em 1em 1.5em;
-  margin-left: 47.5vw;
 }
 
 #see-all:hover {
@@ -125,6 +130,11 @@ body {
   flex-direction: column;
 }
 
+#profile li a:hover {
+  font-size: bolder;
+  transform: scale(1.2);
+}
+
 h3 {
   text-align: center;
   padding-top: 3em;
@@ -146,7 +156,7 @@ ul {
       display: none;
     }
     #profile {
-      flex-direction: column;
+      flex-wrap: wrap;
     }
   }
 }
