@@ -39,9 +39,9 @@
   <h3>Projects</h3>
   <ul id="work">
     <li class="project-tile" id="p1">
-      <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="OJOvdQr" data-user="HarkRed" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/HarkRed/pen/OJOvdQr">
-  Product-Landing-Page</a> by Harkeerat Singh (<a href="https://codepen.io/HarkRed">@HarkRed</a>)
+      <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="oNoVjOv" data-user="HarkRed" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/HarkRed/pen/oNoVjOv">
+  TechStore</a> by Harkeerat Singh (<a href="https://codepen.io/HarkRed">@HarkRed</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -57,9 +57,9 @@
     </li>
 
     <li class="project-tile" id="p3">
-      <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvPjpEP" data-user="HarkRed" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/HarkRed/pen/wvPjpEP">
-  Technical-Documentation</a> by Harkeerat Singh (<a href="https://codepen.io/HarkRed">@HarkRed</a>)
+      <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="OJOvdQr" data-user="HarkRed" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/HarkRed/pen/OJOvdQr">
+  Product-Landing-Page</a> by Harkeerat Singh (<a href="https://codepen.io/HarkRed">@HarkRed</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -67,7 +67,7 @@
   </ul>
   
   <div id="see-all-container">
-    <a href="https://codepen.io/HarkRed/pens/" target="_blank" id="see-all">See All</a>
+  <a href="https://codepen.io/your-work/" target="_blank" id="see-all">See All</a>
   </div>
 </div>
 
@@ -83,6 +83,33 @@
   </ul>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
