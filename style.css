@@ -54,6 +54,7 @@ body {
 #skill-set {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -76,7 +77,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 1.5em;
 }
 
@@ -131,7 +132,7 @@ body {
 }
 
 #profile li a:hover {
-  font-size: bolder;
+  font-weight: bolder;
   transform: scale(1.2);
 }
 
@@ -151,7 +152,19 @@ ul {
   #p3 {
     display: none;
   }
+  
   @media(max-width: 640px) {
+    #navbar a:hover {
+      background-color: black;
+      color: white;
+      text-decoration: underline;
+    }
+    
+    .nav-link {
+      padding: 0;
+      margin-right: 15px;
+    }
+    
     #p2 {
       display: none;
     }
